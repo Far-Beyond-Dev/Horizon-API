@@ -2,8 +2,8 @@ use actix_web::{post, web, HttpResponse, Responder};
 use sqlx::MySqlPool;
 
 // Assuming models.rs and utils.rs are in the same directory
-mod models;
-mod utils;
+use crate::models;
+use crate::utils;
 
 use models::{User, StoredUser};
 use utils::{hash_password, verify_password, generate_token};
