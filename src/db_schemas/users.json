@@ -1,0 +1,9 @@
+{
+    "table": "users",
+    "columns": [
+      { "name": "id", "type": "INTEGER", "primary_key": true, "auto_increment": true },
+      { "name": "username", "type": "VARCHAR(255)", "unique": true },
+      { "name": "password", "type": "VARCHAR(255)" }
+    ]
+  }
+  
