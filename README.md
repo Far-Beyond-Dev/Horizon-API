@@ -13,10 +13,10 @@ Horizon API is a simple RESTful API built using Rust. This API allows you to cre
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/horizon-api.git
+   git clone https://github.com/Stars-Beyond/horizon-api.git
    cd horizon-api
    ```
-
+   
 2. **Setup the database**:
    Run Diesel migrations to set up the database schema.
    ```sh
